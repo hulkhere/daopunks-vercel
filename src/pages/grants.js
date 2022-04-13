@@ -12,46 +12,50 @@ export default function Grants() {
       style={{
         backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%), url(${BackgroundImage})`,
       }}
-      className="w-screen h-screen bg-cover flex flex-col"
+      className="w-screen h-max xl:h-screen bg-cover flex flex-col"
     >
       <Header />
       <div className="w-full h-full flex items-center justify-center">
-        <div className="w-full h-full lg:max-w-5xl flex flex-col xl:flex-row-reverse items-center justify-between mb-10">
-          <div
-            style={{
-              backgroundImage: `url(${HeroImage})`,
-              backgroundSize: "auto 90%",
-            }}
-            className="w-full xl:max-w-sm xl:-mt-16 max-h-38 h-full bg-no-repeat bg-center bg-contain"
-          >
-            <div className="block xl:hidden w-full h-full flex flex-col xl:flex-row items-center justify-end md:justify-center text-center text-white px-5 pb-10 sm:pb-20">
+        <div className="w-full h-full lg:max-w-5xl flex flex-col xl:flex-row-reverse items-center justify-center mb-10">
+        
+          <div className="block xl:hidden w-full h-full flex flex-col xl:flex-row items-center justify-end md:justify-center text-center text-white px-5 mt-5">
               <div className="md:max-w-xl">
                 <div className="modius-bold text-4xl sm:text-6xl md:text-5xl">
-                  {/* We BLAZE TRAILS. <br />
-                  WE BUILD BRIDGES. */}
-                  Grants
-                </div>
+               
+                  Want to go full-DAO?             </div>
                 <div className="modius text-2xl sm:text-3xl px-5 sm:px-10">
-                  A BETTER WORLD AWAITS DAOPUNKS LEAD THE WAY
+                  We want to help
                 </div>
+                <div className='flex flex-col gap-2'> 
+              <div className='text-sm block xl:hidden open-sans-light mt-4'>This grant program is built and governed by the DAOpunk community. It is intended to provide individuals with the initial resources that are needed to take the leap and go full-time DAO. We want to flip corpRATS into DAOpunks and benefit the entire DAOsphere with rich new talent and vision. Our grants program is meant to encourage the growth of the DAO ecosystem by enabling everyone the opportunity to contribute.
+              
+
+</div>
+<div>
+  Grants will be awarded based on the DAOpunk mission and philosophy as defined by the community. DAOpunk NFT holders will vote to select 3 grantees to each receive up to 1 ETH. If you are someone who is ready to go full-time DAO, has a clear plan for how to get there, and knows what you are getting into, but are in need of some funding to bridge the gap, you might just be the right fit for this grant!
+</div>
+</div>
               </div>
             </div>
-          </div>
-          <div className="hidden xl:flex w-full h-full flex-col justify-center text-left text-white px-5 pb-10 sm:pb-20">
+          <div className="hidden xl:flex w-full h-full flex-col justify-center items-center text-center text-white px-5">
             <div className="md:max-w-xl">
               <div className="modius-bold text-5xl">
-                We BLAZE TRAILS. <br /> WE BUILD BRIDGES.
+             Want to go full-DAO?
               </div>
               <div
-                style={{ fontSize: "2.5rem", lineHeight: "2.8rem" }}
-                className="modius max-w-md"
+                className="modius text-2xl py-2"
               >
-                A BETTER WORLD AWAITS DAOPUNKS LEAD THE WAY
+                We want to help
               </div>
+
+              <div className='text-md hidden xl:block open-sans-light'>This grant program is built and governed by the DAOpunk community. It is intended to provide individuals with the initial resources that are needed to take the leap and go full-time DAO. We want to flip corpRATS into DAOpunks and benefit the entire DAOsphere with rich new talent and vision. Our grants program is meant to encourage the growth of the DAO ecosystem by enabling everyone the opportunity to contribute.
+              <br />
+
+Grants will be awarded based on the DAOpunk mission and philosophy as defined by the community. DAOpunk NFT holders will vote to select 3 grantees to each receive up to 1 ETH. If you are someone who is ready to go full-time DAO, has a clear plan for how to get there, and knows what you are getting into, but are in need of some funding to bridge the gap, you might just be the right fit for this grant!</div>
             </div>
             <a
               href="/grants/apply"
-              className="hidden md:block w-max px-8 mt-5 py-5 rounded red text-white modius-bold text-xl leading-snug text-black outline-none cursor-pointer"
+              className="hidden md:block w-max px-16 mt-5 py-5 rounded red text-white modius-bold text-xl leading-snug text-black outline-none cursor-pointer"
             >
               APPLY
             </a>
@@ -60,7 +64,7 @@ export default function Grants() {
             onClick={() => {
               window.location.href = "/grants/apply";
             }}
-            className="xl:hidden w-2/3 sm:w-max px-3 sm:px-10 mx-5 py-5 mb-10 rounded bg-white modius-bold text-sm sm:text-xl leading-snug text-black outline-none"
+            className="xl:hidden w-2/3 sm:w-max px-3 sm:px-10 mx-5 py-5 mt-5 rounded bg-white modius-bold text-sm sm:text-xl leading-snug text-black outline-none"
           >
             APPLY
           </button>
