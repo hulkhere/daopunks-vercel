@@ -57,7 +57,7 @@ Grants will be awarded based on the DAOpunk mission and philosophy as defined by
               href="/grants/apply"
               className="hidden md:block w-max px-16 mt-5 py-5 rounded red text-white modius-bold text-xl leading-snug text-black outline-none cursor-pointer"
             >
-              APPLY
+              TESTING VERCEL
             </a>
           </div>
           <button
