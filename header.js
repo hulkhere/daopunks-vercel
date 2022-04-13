@@ -36,10 +36,7 @@ export default function Header() {
             About
           </a>
           / */}
-          <a href="https://dao-punks.myshopify.com/" className="text-hover-red">
-            Merch
-          </a>
-          /
+        
            <a href="/grants" className="text-hover-red">
             Grants
           </a>
@@ -58,6 +55,10 @@ export default function Header() {
           /
           <a href="/gallery" className="text-hover-red">
             Search
+          </a>
+          /
+            <a href="https://dao-punks.myshopify.com/" className="text-hover-red">
+            Merch
           </a>
           /
           <a
