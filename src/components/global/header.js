@@ -26,7 +26,7 @@ export default function Header() {
         >
           <img className="w-10" src={HamburgerIcon} alt="" />
         </div>
-        <div className="hidden lg:flex modius-bold text-white text-md gap-x-2 2xl:gap-x-">
+        <div className="hidden lg:flex modius-bold text-white text-md gap-x-2 px-5">
           {/* <a
             to="#a
           bout"
