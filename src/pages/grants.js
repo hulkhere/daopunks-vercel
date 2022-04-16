@@ -26,8 +26,8 @@ export default function Grants() {
                 <div className="modius text-2xl sm:text-3xl px-5 sm:px-10 pt-5">
                   We want to help
                 </div>
-                <div className='flex flex-col gap-2 bg-white text-black p-5 rounded-xl'> 
-              <div className='text-sm block xl:hidden open-sans-light mt-4'>This grant program is built and governed by the DAOpunk community. It is intended to provide individuals with the initial resources that are needed to take the leap and go full-time DAO. We want to flip corpRATS into DAOpunks and benefit the entire DAOsphere with rich new talent and vision. Our grants program is meant to encourage the growth of the DAO ecosystem by enabling everyone the opportunity to contribute.
+                <div className='flex flex-col gap-2 bg-white text-black p-5 rounded-xl open-sans-light'> 
+              <div className='text-sm block xl:hidden mt-4'>This grant program is built and governed by the DAOpunk community. It is intended to provide individuals with the initial resources that are needed to take the leap and go full-time DAO. We want to flip corpRATS into DAOpunks and benefit the entire DAOsphere with rich new talent and vision. Our grants program is meant to encourage the growth of the DAO ecosystem by enabling everyone the opportunity to contribute.
               
 
 </div>
