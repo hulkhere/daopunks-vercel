@@ -27,17 +27,17 @@ export default function Grants() {
                   We want to help
                 </div>
                 <div className='flex flex-col gap-2 bg-white text-black p-5 rounded-xl open-sans-light'> 
-              <div className='text-sm block xl:hidden mt-4'>This grant program is built and governed by the DAOpunk community. It is intended to provide individuals with the initial resources that are needed to take the leap and go full-time DAO. We want to flip corpRATS into DAOpunks and benefit the entire DAOsphere with rich new talent and vision. Our grants program is meant to encourage the growth of the DAO ecosystem by enabling everyone the opportunity to contribute.
+              <div className='block xl:hidden mt-4'>This is an experimental grant program built and governed by the DAOpunk community. It is intended to provide individuals with the initial resources that are needed to take the leap and go full-time DAO. We want to flip corpRATS into DAOpunks and benefit the entire DAOsphere with rich new talent and vision from all niches of the world. Our grants program is meant to encourage the growth of the DAO ecosystem by giving everyone the opportunity to contribute.
               
 
 </div>
 <div>
-  Grants will be awarded based on the DAOpunk mission and philosophy as defined by the community. DAOpunk NFT holders will vote to select 3 grantees to each receive up to 1 ETH. If you are someone who is ready to go full-time DAO, has a clear plan for how to get there, and knows what you are getting into, but are in need of some funding to bridge the gap, you might just be the right fit for this grant!
+Cohort_0 is our pathfinder round that will help us shape future grant rounds. Grants will be awarded based on the DAOpunk mission and philosophy as defined by the community. DAOpunk NFT holders will vote to select 3 grantees to each receive up to 1 ETH.  If you are ready to go full-time DAO, have a clear plan for how to get there, and know what you are getting into, but you are in need of some funding to make it happen, this grant might be just the kick you need to get there.
 </div>
 <div className='flex flex-col gap-1 mt-5'>
             <div>Application submissions are OPEN, starting 4.20.22</div>
             <div>Submissions close on 5.4.22</div>
-            <div>Cohort_0 members will be announced on 5.11.22</div>
+            <div>Cohort_0 members will be announced on 5.23.22</div>
 
             </div>
 </div>
@@ -54,14 +54,14 @@ export default function Grants() {
                 We want to help
               </div>
               <div className='text-black bg-white p-8 rounded-xl open-sans-light'><div className='flex flex-col gap-5'>
-              <div className='text-md hidden xl:block open-sans-light'>This grant program is built and governed by the DAOpunk community. It is intended to provide individuals with the initial resources that are needed to take the leap and go full-time DAO. We want to flip corpRATS into DAOpunks and benefit the entire DAOsphere with rich new talent and vision. Our grants program is meant to encourage the growth of the DAO ecosystem by enabling everyone the opportunity to contribute.</div>
+              <div className='text-md hidden xl:block'>This is an experimental grant program built and governed by the DAOpunk community. It is intended to provide individuals with the initial resources that are needed to take the leap and go full-time DAO. We want to flip corpRATS into DAOpunks and benefit the entire DAOsphere with rich new talent and vision from all niches of the world. Our grants program is meant to encourage the growth of the DAO ecosystem by giving everyone the opportunity to contribute.</div>
 
-<div>Grants will be awarded based on the DAOpunk mission and philosophy as defined by the community. DAOpunk NFT holders will vote to select 3 grantees to each receive up to 1 ETH. If you are someone who is ready to go full-time DAO, has a clear plan for how to get there, and knows what you are getting into, but are in need of some funding to bridge the gap, you might just be the right fit for this grant!</div> 
+<div>Cohort_0 is our pathfinder round that will help us shape future grant rounds. Grants will be awarded based on the DAOpunk mission and philosophy as defined by the community. DAOpunk NFT holders will vote to select 3 grantees to each receive up to 1 ETH.  If you are ready to go full-time DAO, have a clear plan for how to get there, and know what you are getting into, but you are in need of some funding to make it happen, this grant might be just the kick you need to get there.</div> 
             </div>
             <div className='flex flex-col gap-2 mt-5'>
             <div>Application submissions are OPEN, starting 4.20.22</div>
             <div>Submissions close on 5.4.22</div>
-            <div>Cohort_0 members will be announced on 5.11.22</div>
+            <div>Cohort_0 members will be announced on 5.23.22</div>
 
             </div>
             </div>
